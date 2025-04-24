@@ -95,3 +95,38 @@ Result for Workstations:  <br/>
 Result for Servers:  <br/>
 <img src="https://i.imgur.com/IzjhiHd.png" height="80%" width="80%" alt="AD"/>
 <br />
+
+<h2>Group Policies:</h2>
+<h3>Edit Group Policy:</h3>
+<p align="center">
+  <p>For this part, I will modified existing group policy called Default Domain Policy</p>
+  <p align="center">
+Launch group policy management:  <br/>
+<img src="https://i.imgur.com/hLX784y.png" height="80%" width="80%" alt="AD"/>
+<br />
+<br />
+Click on the group policy and go to Setting tab:  <br/>
+<img src="https://i.imgur.com/q7WX3t6.png" height="80%" width="80%" alt="AD"/>
+<br />
+<br />
+Right click the GPO & choose edit:  <br/>
+<img src="https://i.imgur.com/ErWUFxy.png" height="80%" width="80%" alt="AD"/>
+<br />
+<br />
+In this scenario, I will change the highlighted policy value:  <br/>
+<img src="https://i.imgur.com/RrZmyZk.png" height="80%" width="80%" alt="AD"/>
+<br />
+<br />
+Change the policy value from 7 to 10:  <br/>
+<img src="https://i.imgur.com/PY49l7T.png" height="80%" width="50%" alt="AD"/>
+<br />
+<br />
+Result:  <br/>
+<img src="https://i.imgur.com/7q8hcM3.png" height="80%" width="80%" alt="AD"/>
+<br />
+<h3>Create New Group Policy:</h3>
+<p>For this part, I will create new policy called Restrict Control Panel Access.</p>
+<p align="center">
+Create new GPO & named it Restrict Control Panel Access:  <br/>
+<img src="https://i.imgur.com/3hyzg68.png" height="80%" width="50%" alt="AD"/>
+<br />
